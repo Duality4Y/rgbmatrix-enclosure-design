@@ -1,9 +1,3 @@
-//difference()
-//{
-//    square([100, 200]);
-//    square([10, 20]);
-//}
-
 width = 190;
 height = 95;
 
@@ -51,14 +45,6 @@ module holes(width, height, d)
     translate([width, height])
     hole();
 }
-
-//difference()
-//{
-//    pane();
-//    edge_pane();
-//    translate([10, 10])
-//    holes(hole_width, hole_height, 3);
-//}
 
 module backpane()
 {
